@@ -39,7 +39,7 @@ public class MathCalculator extends CordovaPlugin {
 
         }
         else{
-            callback.error("C'mon ... You want to add null Value !! You can do one better ");
+            callback.error("C'mon ... You want to add null Values !! You can do one better ");
         }
     }
 
@@ -60,7 +60,7 @@ public class MathCalculator extends CordovaPlugin {
 
         }
         else{
-            callback.error("C'mon ... You want to subtract null Value !! You can do one better ");
+            callback.error("C'mon ... You want to subtract null Values !! You can do one better ");
         }
     }
     private void multiply(JSONARRAY args, callbackContext callback)
@@ -80,7 +80,7 @@ public class MathCalculator extends CordovaPlugin {
 
         }
         else{
-            callback.error("C'mon ... You want to multiply null Value !! You can do one better ");
+            callback.error("C'mon ... You want to multiply null Values !! You can do one better ");
         }
     }
     private void divide(JSONARRAY args, callbackContext callback)
@@ -100,7 +100,7 @@ public class MathCalculator extends CordovaPlugin {
 
         }
         else{
-            callback.error("C'mon ... You want to multiply null Value !! You can do one better ");
+            callback.error("Gimme a break now ... Null Values division .. REALLY !! ");
         }
     }
 }
