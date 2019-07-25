@@ -1,4 +1,4 @@
-package cordova-plugin-mathcalculator;
+package cordova.plugin.mathcalculator;
 
 import org.apache.cordova.CordovaPlugin;
 import org.apache.cordova.CallbackContext;
@@ -42,6 +42,5 @@ public class MathCalculator extends CordovaPlugin {
             callback.error("C'mon ... You want to add null Values !! You can do one better ");
         }
     }
-
 
 }
