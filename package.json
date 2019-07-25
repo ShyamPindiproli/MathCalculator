@@ -1,5 +1,5 @@
 {
-  "name": "mathcalculator",
+  "name": "cordova-plugin-mathcalculator",
   "version": "0.0.1",
   "description": "Basic Math Calculator using custom Cordova Plugin",
   "main": "index.js",
@@ -11,5 +11,5 @@
     "Calculator"
   ],
   "author": "Shyam Pindiproli",
-  "license": "MIT"
+  "license": "ISC"
 }
