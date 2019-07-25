@@ -22,7 +22,7 @@ public class MathCalculator extends CordovaPlugin {
         return false;
     }
 
-    private void add(JSONARRAY args, callbackContext callback)
+    private void add(JSONArray args, callbackContext callback)
     {
         if(args != null)
         {
